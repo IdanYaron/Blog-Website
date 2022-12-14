@@ -1,0 +1,29 @@
+Concepts to search:
+1. How to do authentivation.
+2. What files there are in 'firebase/auth'
+3. What files there are in 'firebase/firestore'
+4. Read about 'react router dom' (= create different pages in my website different routres):
+    - router
+    - routes
+    - route
+    - link
+5. navbar (<nav> </nuv>) = navigation bar = סרגל ניווט
+6. localStorage.setItem()
+7. import { useNavigate } from 'react-router-dom'
+8. window.location.pathname()
+9. import { addDoc } from 'firebase/firestore'; ->  awiat addDoc()
+10. import { db, auth } from '../firebase-config'; ->  auth.currentUser.displayName , auth.currentUser.uid
+
+
+
+Concepts to remember:
+- authentivation = אימות
+
+
+
+npm:
+- npm i firebase
+- npm i react-router-dom = https://www.npmjs.com/package/react-router-dom
+
+? npm audit fix --force
+? npm run build
