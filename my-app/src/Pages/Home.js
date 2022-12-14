@@ -18,6 +18,13 @@ function Home({ isAuth }) {
   const deletePost = async (id) => {
     const postDoc = doc(db, "posts", id);
     await deleteDoc(postDoc);
+
+    // Option A: Refresh the Page
+    // window.location.reload(true);
+
+    // Option B : Refresh the State (preferred option).
+    const data = await getDocs(postsCollectionRef);
+    setPostList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
   };
 
   return (
