@@ -13,7 +13,9 @@ Concepts to search:
 8. window.location.pathname()
 9. import { addDoc } from 'firebase/firestore'; ->  awiat addDoc()
 10. import { db, auth } from '../firebase-config'; ->  auth.currentUser.displayName , auth.currentUser.uid
-
+11. ...
+12. unicode. like- &#128465;
+13. await deleteDoc()
 
 
 Concepts to remember:
